@@ -1,0 +1,45 @@
+name: Publicar portafolio
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar GitHub Pages
+        id: paginas
+        uses: actions/configure-pages@v5
+
+      - name: Regenerar catálogo y armar el sitio
+        run: |
+          mkdir -p _sitio
+          cp index.html estilos.css app.js ovillo.svg _sitio/
+          cp -r fotos _sitio/fotos
+          python3 herramientas/generar.py _sitio/datos.json
+
+      - name: Subir artefacto
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _sitio
+
+      - name: Desplegar en GitHub Pages
+        id: despliegue
+        uses: actions/deploy-pages@v4

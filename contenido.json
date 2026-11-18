@@ -1,0 +1,231 @@
+{
+  "orden_categorias": {
+    "amigurumis": 1,
+    "ramos": 2,
+    "aretes": 3,
+    "llaveros": 4
+  },
+  "categorias": {
+    "amigurumis": {
+      "nombre": "Amigurumis",
+      "subtitulo": "Muñecos tejidos en espiral con ojos de seguridad y caritas bordadas a mano. Desde personajes de anime y cracks del fútbol hasta criaturas propias del taller: cada uno llega con su personalidad y listo para adopción.",
+      "dato": "«Amigurumi» viene del japonés: significa «muñeco tejido y relleno».",
+      "nota": "Ideal para: regalos, coleccionistas, decoración y compañía de escritorio."
+    },
+    "ramos": {
+      "nombre": "Ramos eternos",
+      "subtitulo": "Flores que no se marchitan jamás: ramos tejidos punto a punto, envueltos en papel kraft con lazo y tarjeta personalizada. El regalo perfecto para aniversarios, cumpleaños o para un simple «porque sí».",
+      "dato": "Un ramo de crochet no necesita agua: solo un lugar con luz y cariño.",
+      "nota": "Ideal para: aniversarios, cumpleaños, San Valentín y detalles que duran para siempre."
+    },
+    "aretes": {
+      "nombre": "Aretes",
+      "subtitulo": "Florecitas tejidas a mano y montadas en argolla plateada: ligeras como pétalos y con todos los colores del taller. Cada par es único y se presenta en su tarjeta kraft.",
+      "dato": "Un par de aretes de crochet pesa menos que una pluma: ternura que no cansa a la oreja.",
+      "nota": "Ideal para: regalos tiernos, looks coquette y detalles que se usan todos los días."
+    },
+    "llaveros": {
+      "nombre": "Llaveros",
+      "subtitulo": "Pequeños amigurumis convertidos en compañeros de llaves y mochilas: colgantes tejidos con anilla resistente, listos para acompañarte a todas partes.",
+      "dato": "El primer llavero del taller nació de un sobrante de lana: ahora son los más viajeros.",
+      "nota": "Ideal para: llaves, mochilas, bolsos y regalos de última hora con cariño."
+    }
+  },
+  "destacados": [
+    "pochita-perfil.jpg",
+    "ronaldo-dorsal.jpg",
+    "ramo-tarjeta.jpg"
+  ],
+  "contacto": {
+    "Instagram": "",
+    "WhatsApp": "",
+    "Correo": ""
+  },
+  "fotos": {
+    "pochita.jpg": {
+      "titulo": "Pochita",
+      "descripcion": "El inseparable compañero de Denji en versión ovillo: cuerpo redondito naranja, motosierra gris con dientecitos negros, tirante y colita con anilla para colgar. Tejido en espiral, con ojos de seguridad y patitas listas para cualquier aventura.",
+      "orden": 1
+    },
+    "pochita-perfil.jpg": {
+      "titulo": "Pochita · perfil",
+      "descripcion": "De perfil se aprecian las puntadas en espiral del cuerpecito naranja y el acabado firme del relleno.",
+      "orden": 2
+    },
+    "pochita-motosierra.jpg": {
+      "titulo": "Pochita con motosierra",
+      "descripcion": "Motosierra, tirante y anilla para colgar: los detalles que lo hacen inconfundible.",
+      "orden": 3
+    },
+    "ronaldo.jpg": {
+      "titulo": "Cristiano Ronaldo",
+      "descripcion": "El crack portugués tejido a puntadas: camiseta blanca con escudo y patrocinio, dorsal 7 en la espalda con su nombre, medias a rayas y rizos cuidados uno a uno.",
+      "orden": 4
+    },
+    "ronaldo-espalda.jpg": {
+      "titulo": "Cristiano Ronaldo · espalda",
+      "descripcion": "La espalda con el nombre y el número 7 bordados punto a punto, como en el equipo.",
+      "orden": 5
+    },
+    "ronaldo-dorsal.jpg": {
+      "titulo": "Cristiano Ronaldo · dorsal 7",
+      "descripcion": "Detalle del escudo, el patrocinio y el tejido minúsculo de la camiseta.",
+      "orden": 6
+    },
+    "fantasmita.jpg": {
+      "titulo": "Fantasmita",
+      "descripcion": "Muñequito de cabeza redonda, ojitos de seguridad y boquita negra bordada. Perfecto para colgar, regalar o convertirse en llavero.",
+      "orden": 7
+    },
+    "bichito-verde.jpg": {
+      "titulo": "Bichito verde",
+      "descripcion": "Criatura de patio con anténitas de pompón, mejillas rosaditas y patitas de limpia pipas. Explora escritorios y conquista corazones.",
+      "orden": 8
+    },
+    "bichito-retrato.jpg": {
+      "titulo": "Bichito verde · retrato",
+      "descripcion": "Segundo retrato del bichito del taller, con sus antenitas y patitas en primer plano.",
+      "orden": 9
+    },
+    "zanahoria.jpg": {
+      "titulo": "Zanahoria tejida",
+      "descripcion": "Zanahoria de juguete en lana: cuerpecito naranja cónico y tres hojitas verdes, con puntadas uniformes y relleno firme. Ideal para cocinas, bebés y fotos tiernas.",
+      "orden": 10
+    },
+    "spidey-telarana.jpg": {
+      "titulo": "Spidey en su telaraña",
+      "descripcion": "Mini Spider-Man tejido que cuelga de su telaraña blanca: un colgante perfecto para ventanas, llaves o rincones del cuarto.",
+      "orden": 11
+    },
+    "ronaldo-retrato-1.jpg": {
+      "titulo": "Cristiano Ronaldo · retrato I",
+      "descripcion": "Nueva sesión de fotos del crack del taller: frente completo, rizos y camiseta blanca.",
+      "orden": 12
+    },
+    "ronaldo-retrato-2.jpg": {
+      "titulo": "Cristiano Ronaldo · retrato II",
+      "descripcion": "Otro ángulo del amigurumi futbolista, con su dorsal y sus detalles cuidados.",
+      "orden": 13
+    },
+    "ronaldo-retrato-3.jpg": {
+      "titulo": "Cristiano Ronaldo · retrato III",
+      "descripcion": "Tercer retrato de la sesión: patitas, medias y la personalidad del muñeco.",
+      "orden": 14
+    },
+    "kuromi.jpg": {
+      "titulo": "Kuromi lila",
+      "descripcion": "La conejita rival de My Melody en versión ovillo: capucha lila, orejas largas con moño, carita blanca y lacito en el cuello. Tejida con cariño para fans de Sanrio.",
+      "orden": 15
+    },
+    "pochita-nueva-sesion.jpg": {
+      "titulo": "Pochita · nueva sesión",
+      "descripcion": "Pochita posando de nuevo para el catálogo, con su motosierra gris y su carita feliz.",
+      "orden": 16
+    },
+    "pochita-nueva-sesion-2.jpg": {
+      "titulo": "Pochita · motosierra II",
+      "descripcion": "Otro ángulo del Pochita de la nueva camada del taller.",
+      "orden": 17
+    },
+    "bebe-amigurumi.jpg": {
+      "titulo": "Bebé amigurumi",
+      "descripcion": "Muñequito bebé de cuerpo blandito en blanco, con ojitos de seguridad: suave y ligero, ideal para los más pequeños de la casa.",
+      "orden": 18
+    },
+    "ramo-tulipanes-morados.jpg": {
+      "titulo": "Ramo de tulipanes morados",
+      "descripcion": "Tulipanes morados tejidos con tallos y hojas verdes, envueltos en papel kraft con lazo blanco y tarjeta «just for you» en degradado rosa. Un ramo que no necesita agua y florece todos los días del año.",
+      "orden": 1
+    },
+    "ramo-tarjeta.jpg": {
+      "titulo": "Ramo · tarjeta «just for you»",
+      "descripcion": "Detalle de la envoltura kraft, el lazo y la tarjetita en degradado rosa que acompaña cada ramo.",
+      "orden": 2
+    },
+    "rosa-eterna.jpg": {
+      "titulo": "Rosa eterna",
+      "descripcion": "Rosa tejida a crochet con hojas verdes, envuelta en papel kraft y adornada con lazo de satén rojo. Un detalle eterno para cualquier ocasión especial.",
+      "orden": 3
+    },
+    "ramo-tulipanes-lila.jpg": {
+      "titulo": "Ramo de tulipanes lila",
+      "descripcion": "Tulipanes en tonos lila con hojas verdes y envoltura kraft: otro eterno del taller que nunca se marchita.",
+      "orden": 4
+    },
+    "ramo-tulipanes-lavanda.jpg": {
+      "titulo": "Ramo de tulipanes lavanda",
+      "descripcion": "Tulipanes lavanda con tarjeta dedicada: el regalo que florece todo el año sin una gota de agua.",
+      "orden": 5
+    },
+    "aretes-bosque.jpg": {
+      "titulo": "Aretes · bosque",
+      "descripcion": "Florecitas en verde bosque con centro perlado, presentadas en su tarjeta kraft entre plantas, valles y vapor de matcha.",
+      "orden": 1
+    },
+    "aretes-paris.jpg": {
+      "titulo": "Aretes · París",
+      "descripcion": "Aretes violetas rodeados de aire parisino: Torre Eiffel, postales y luces de vela en esta lámina del taller.",
+      "orden": 2
+    },
+    "aretes-lavanda.jpg": {
+      "titulo": "Aretes · lavanda",
+      "descripcion": "Pétalos lavanda con campos al atardecer y luna rosa: romantismo puro prendido en la oreja.",
+      "orden": 3
+    },
+    "aretes-rosa.jpg": {
+      "titulo": "Aretes · rosa",
+      "descripcion": "Florecitas rosa presentadas entre tulipanes, perlas y cremas de rosa y vainilla.",
+      "orden": 4
+    },
+    "aretes-burdeos.jpg": {
+      "titulo": "Aretes · burdeos",
+      "descripcion": "Aretes en rojo burdeos con estética oscura y vintage: para looks con carácter.",
+      "orden": 5
+    },
+    "aretes-violeta.jpg": {
+      "titulo": "Aretes · violeta",
+      "descripcion": "Aretes violetas entre violetas, luna y lunares: la lámina más soñadora de la colección.",
+      "orden": 6
+    },
+    "aretes-durazno.jpg": {
+      "titulo": "Aretes · durazno",
+      "descripcion": "Flor de cinco pétalos en durazno y rosa pastel: ligera, tierna y coquette.",
+      "orden": 7
+    },
+    "aretes-girasol.jpg": {
+      "titulo": "Aretes · girasol",
+      "descripcion": "Florecitas amarillas como girasoles: un toque luminoso y fresco para el día a día.",
+      "orden": 8
+    },
+    "aretes-otono.jpg": {
+      "titulo": "Aretes · otoño",
+      "descripcion": "Flor en marrón café para acompañar días de café y suéter: artesanal y llena de ternura.",
+      "orden": 9
+    },
+    "aretes-azul-mar.jpg": {
+      "titulo": "Aretes · azul mar",
+      "descripcion": "Flores en azul celeste inspiradas en la brisa del mar: ligeras y frescas para el verano.",
+      "orden": 10
+    },
+    "llavero-corazon-flor.jpg": {
+      "titulo": "Llavero corazón y flor",
+      "descripcion": "Corazón morado con cruz blanca bordada y flor lila con perla al centro: el colgante tierno que acompaña las llaves.",
+      "orden": 1
+    },
+    "llavero-spiderman.jpg": {
+      "titulo": "Llavero Spider-Man",
+      "descripcion": "Spider-Man tejido con detalles de fieltro y correa blanca para colgar: el héroe de bolsillo.",
+      "orden": 2
+    },
+    "llavero-pinguino.jpg": {
+      "titulo": "Llavero pingüinito",
+      "descripcion": "Pingüino de carita dulce y pico amarillo, con argolla para llaves o mochila.",
+      "orden": 3
+    },
+    "llavero-pochita.jpg": {
+      "titulo": "Llavero Pochita",
+      "descripcion": "Pochita en versión mini: naranja, con su sierra gris y listo para viajar contigo a todos lados.",
+      "orden": 4
+    }
+  }
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amélie's Handicrafts 🧶 · Portafolio de Creaciones</title>
+<meta name="description" content="Amigurumis, ramos eternos, aretes y llaveros tejidos a mano punto a punto — porque cada hilo guarda una historia.">
+<meta property="og:title" content="Amélie's Handicrafts 🧶 · Portafolio de Creaciones">
+<meta property="og:description" content="Amigurumis, ramos eternos y piezas personalizadas, tejidas a mano punto a punto.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="fotos/ramos/ramo-tulipanes-morados.jpg">
+<meta name="theme-color" content="#faf5ee">
+<link rel="icon" href="ovillo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600;1,700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<!-- ══════════ SÍMBOLOS SVG REUTILIZABLES (dibujitos de crochet) ══════════ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="ovillo" viewBox="0 0 122 114">
+      <circle cx="56" cy="52" r="36" fill="#f4ead9" stroke="#b06a56" stroke-width="3.2"/>
+      <path d="M24 42 Q56 12 88 42" fill="none" stroke="#b06a56" stroke-width="3" stroke-linecap="round"/>
+      <path d="M22 62 Q56 92 90 62" fill="none" stroke="#b06a56" stroke-width="3" stroke-linecap="round"/>
+      <path d="M40 18 Q64 52 40 86" fill="none" stroke="#d9967f" stroke-width="2.8" stroke-linecap="round"/>
+      <path d="M72 18 Q48 52 72 86" fill="none" stroke="#d9967f" stroke-width="2.8" stroke-linecap="round"/>
+      <path d="M84 76 Q100 96 113 91 Q119 89 116 83" fill="none" stroke="#b06a56" stroke-width="3" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="gancho" viewBox="0 0 44 132">
+      <path d="M22 6 L22 94" fill="none" stroke="#b06a56" stroke-width="7" stroke-linecap="round"/>
+      <path d="M22 94 C22 118 4 118 8 100" fill="none" stroke="#b06a56" stroke-width="7" stroke-linecap="round"/>
+      <path d="M13 6 L31 6" fill="none" stroke="#d9967f" stroke-width="7" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="emblem" viewBox="0 0 172 138">
+      <use href="#gancho" x="22" y="8" width="36" height="116" transform="rotate(26 40 66)"/>
+      <use href="#gancho" x="114" y="8" width="36" height="116" transform="rotate(-26 132 66)"/>
+      <use href="#ovillo" x="28" y="26" width="112" height="105"/>
+    </symbol>
+    <symbol id="granny" viewBox="0 0 84 84">
+      <rect x="5" y="5" width="74" height="74" rx="10" fill="none" stroke="#b06a56" stroke-width="3.4"/>
+      <rect x="17" y="17" width="50" height="50" rx="7" fill="none" stroke="#d9967f" stroke-width="2.8"/>
+      <circle cx="42" cy="42" r="7.5" fill="#b06a56"/>
+      <circle cx="11" cy="11" r="3.2" fill="#d9967f"/><circle cx="73" cy="11" r="3.2" fill="#d9967f"/>
+      <circle cx="11" cy="73" r="3.2" fill="#d9967f"/><circle cx="73" cy="73" r="3.2" fill="#d9967f"/>
+    </symbol>
+    <symbol id="flor" viewBox="0 0 70 70">
+      <g fill="#eec9bd" stroke="#b06a56" stroke-width="2.2">
+        <ellipse cx="35" cy="16.5" rx="9" ry="12.5"/>
+        <ellipse cx="35" cy="16.5" rx="9" ry="12.5" transform="rotate(72 35 35)"/>
+        <ellipse cx="35" cy="16.5" rx="9" ry="12.5" transform="rotate(144 35 35)"/>
+        <ellipse cx="35" cy="16.5" rx="9" ry="12.5" transform="rotate(216 35 35)"/>
+        <ellipse cx="35" cy="16.5" rx="9" ry="12.5" transform="rotate(288 35 35)"/>
+      </g>
+      <circle cx="35" cy="35" r="8" fill="#b06a56"/>
+    </symbol>
+    <symbol id="tulipan" viewBox="0 0 60 104">
+      <path d="M30 6 C22 16 22 34 30 46 C38 34 38 16 30 6 Z" fill="#b06a56"/>
+      <path d="M14 26 C12 14 22 6 30 12 C28 22 22 32 14 26 Z" fill="#d9967f"/>
+      <path d="M46 26 C48 14 38 6 30 12 C32 22 38 32 46 26 Z" fill="#d9967f"/>
+      <path d="M30 46 L30 96" fill="none" stroke="#8f7563" stroke-width="3.4" stroke-linecap="round"/>
+      <path d="M30 72 Q18 60 16 46 Q28 54 30 68" fill="#d9967f" opacity=".55"/>
+    </symbol>
+    <symbol id="corazon" viewBox="0 0 24 22">
+      <path d="M12 20 C4 14 1 9 3 5 C5 1 10 2 12 6 C14 2 19 1 21 5 C23 9 20 14 12 20 Z" fill="#b06a56"/>
+    </symbol>
+    <symbol id="star" viewBox="0 0 22 22">
+      <path d="M11 1 L13.4 8.6 L21 11 L13.4 13.4 L11 21 L8.6 13.4 L1 11 L8.6 8.6 Z" fill="#d9967f"/>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- ══════════ BARRA DE NAVEGACIÓN (se llena con app.js) ══════════ -->
+<nav class="barra" id="barra">
+  <a class="barra-marca" href="#inicio">
+    <svg width="34" height="30" viewBox="0 0 122 114"><use href="#ovillo"/></svg>
+    <span>Amélie&rsquo;s Handicrafts</span>
+  </a>
+  <div class="barra-links" id="barra-links"></div>
+</nav>
+
+<!-- ══════════ PORTADA ══════════ -->
+<header class="pagina pagina-portada" id="inicio">
+  <div class="marco-borde">
+    <div>
+      <div class="etiqueta-sup">PORTAFOLIO DE CREACIONES</div>
+      <svg class="emblema" width="150" height="120" viewBox="0 0 172 138"><use href="#emblem"/></svg>
+      <div class="titulo-1">Amélie&rsquo;s</div>
+      <div class="titulo-2">Handicrafts 🧶</div>
+      <svg class="feston" width="182" height="16" viewBox="0 0 182 16">
+        <path d="M0 15 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0" fill="none" stroke="#b06a56" stroke-width="3" stroke-linecap="round"/>
+      </svg>
+      <p class="portada-sub">Amigurumis, ramos eternos y piezas personalizadas, tejidas a mano punto a punto — porque cada hilo guarda una historia.</p>
+    </div>
+
+    <div>
+      <div class="salpicado">
+        <svg width="15" height="14" viewBox="0 0 24 22" style="opacity:.6"><use href="#corazon"/></svg>
+        <svg width="15" height="15" viewBox="0 0 22 22"><use href="#star"/></svg>
+        <svg width="15" height="14" viewBox="0 0 24 22" style="opacity:.6"><use href="#corazon"/></svg>
+      </div>
+      <div class="portada-miniaturas-etiqueta">UN VISTAZO AL TALLER</div>
+      <div class="portada-miniaturas" id="portada-miniaturas"></div>
+    </div>
+
+    <div>
+      <svg class="greca" width="300" height="20" viewBox="0 0 300 20">
+        <path d="M0 10 Q12 -2 24 10 T48 10 T72 10 T96 10 T120 10 T144 10 T168 10 T192 10 T216 10 T240 10 T264 10 T288 10" fill="none" stroke="#d9967f" stroke-width="3" stroke-linecap="round"/>
+      </svg>
+      <div class="portada-pie">Catálogo para clientes · siempre en línea</div>
+    </div>
+  </div>
+</header>
+
+<!-- ══════════ BIENVENIDA ══════════ -->
+<section class="pagina pagina-bienvenida" id="bienvenida">
+  <div class="cabecera-centro">
+    <div class="etiqueta-sup">BIENVENIDO/A A MI TALLER</div>
+    <h1 class="titulo-bienvenida">Hecho a mano,<br>hecho con el corazón</h1>
+    <svg class="feston" width="182" height="16" viewBox="0 0 182 16">
+      <path d="M0 15 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0" fill="none" stroke="#b06a56" stroke-width="3" stroke-linecap="round"/>
+    </svg>
+  </div>
+
+  <p class="texto">Bienvenido o bienvenida al rincón de <strong>Amélie&rsquo;s Handicrafts</strong>, un pequeño taller donde el crochet se convierte en casi cualquier cosa que se pueda imaginar. Aquí cada pieza nace de una madeja, un gancho y muchas horas de paciencia: no hay dos trabajos iguales, y en eso está toda su gracia.</p>
+
+  <p class="texto">Trabajo con hilos suaves y resistentes, relleno de fibra siliconada, ojos de seguridad y detalles bordados a mano, cuidando cada puntada hasta el final. El resultado son piezas firmes, tiernas y hechas para acompañarte mucho tiempo.</p>
+
+  <p class="texto">Este catálogo reúne algunos de mis trabajos para que conozcas el estilo del taller. Si algo te encanta pero lo imaginas en otros colores, en otro tamaño o con un detalle distinto, se puede: casi todo se personaliza antes de tejer la primera puntada.</p>
+
+  <div class="chips">
+    <span class="chip">100 % tejido a mano</span>
+    <span class="chip">Materiales de calidad</span>
+    <span class="chip">Diseños personalizados</span>
+    <span class="chip">Piezas únicas</span>
+  </div>
+
+  <div class="tarjeta-idea">
+    <svg class="ico" width="74" height="69" viewBox="0 0 122 114"><use href="#ovillo"/></svg>
+    <div>
+      <h3>¿Tienes una idea en mente?</h3>
+      <p>Personajes favoritos, mascotas, ramos que no se marchitan, aretes, llaveros&hellip; cuéntame qué imaginas y lo convertimos en hilo: te confirmo materiales, tiempo de entrega y precio antes de empezar.</p>
+    </div>
+  </div>
+
+  <div class="cita">«Cada puntada, un pequeño acto de amor.»</div>
+
+  <div class="fila-dibujos">
+    <svg width="48" height="48" viewBox="0 0 84 84" style="opacity:.75"><use href="#granny"/></svg>
+    <svg width="42" height="42" viewBox="0 0 70 70"><use href="#flor"/></svg>
+    <svg width="18" height="16" viewBox="0 0 24 22"><use href="#corazon"/></svg>
+    <svg width="42" height="42" viewBox="0 0 70 70" style="transform:rotate(36deg)"><use href="#flor"/></svg>
+    <svg width="16" height="16" viewBox="0 0 22 22"><use href="#star"/></svg>
+    <svg width="48" height="48" viewBox="0 0 84 84" style="opacity:.55"><use href="#granny"/></svg>
+  </div>
+</section>
+
+<!-- ══════════ GALERÍA POR CATEGORÍAS (se llena con app.js) ══════════ -->
+<main class="pagina pagina-galeria" id="galeria">
+  <div id="galeria-contenido" class="galeria-contenido"></div>
+</main>
+
+<!-- ══════════ CIERRE / CONTACTO ══════════ -->
+<section class="pagina pagina-cierre" id="contacto">
+  <div class="marco-borde">
+    <div>
+      <div class="etiqueta-sup" style="margin-bottom:12px;">GRACIAS POR MIRAR</div>
+      <svg width="140" height="113" viewBox="0 0 172 138" style="margin:0 auto 10px; display:block;"><use href="#emblem"/></svg>
+      <h2 class="titulo-cierre">¿Tejemos algo juntos?</h2>
+      <p class="texto-cierre">Todas las piezas de este catálogo pueden personalizarse en colores, tamaños y detalles. Si tienes una idea en mente, escríbeme: confirmamos materiales, tiempo y precio, y empiezo a tejer.</p>
+      <div class="fila-dibujos" style="margin-top:20px; padding-top:0;">
+        <svg width="34" height="58" viewBox="0 0 60 104"><use href="#tulipan"/></svg>
+        <svg width="32" height="32" viewBox="0 0 70 70"><use href="#flor"/></svg>
+        <svg width="16" height="15" viewBox="0 0 24 22"><use href="#corazon"/></svg>
+        <svg width="32" height="32" viewBox="0 0 70 70" style="transform:rotate(72deg)"><use href="#flor"/></svg>
+        <svg width="34" height="58" viewBox="0 0 60 104" style="transform:scaleX(-1)"><use href="#tulipan"/></svg>
+      </div>
+    </div>
+
+    <div class="tarjeta-contacto" id="tarjeta-contacto"></div>
+
+    <div>
+      <svg class="feston" width="182" height="16" viewBox="0 0 182 16">
+        <path d="M0 15 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0 a7 10 0 0 1 14 0" fill="none" stroke="#b06a56" stroke-width="3" stroke-linecap="round"/>
+      </svg>
+      <div class="marca-cierre">Amélie&rsquo;s Handicrafts 🧶</div>
+      <div class="micro-cierre">Hecho con amor, hilo y paciencia · 2026</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ VISOR DE FOTOS (lightbox) ══════════ -->
+<div class="visor" id="visor" hidden>
+  <button class="visor-cerrar" id="visor-cerrar" aria-label="Cerrar">✕</button>
+  <button class="visor-flecha visor-ant" id="visor-ant" aria-label="Anterior">‹</button>
+  <figure class="visor-tarjeta">
+    <img id="visor-img" src="" alt="">
+    <figcaption>
+      <div class="visor-titulo" id="visor-titulo"></div>
+      <div class="visor-chip" id="visor-chip"></div>
+      <p class="visor-desc" id="visor-desc"></p>
+      <div class="visor-contador" id="visor-contador"></div>
+    </figcaption>
+  </figure>
+  <button class="visor-flecha visor-sig" id="visor-sig" aria-label="Siguiente">›</button>
+</div>
+
+<footer class="pie-final">
+  <svg width="22" height="20" viewBox="0 0 122 114" style="opacity:.7"><use href="#ovillo"/></svg>
+  <span>Amélie&rsquo;s Handicrafts · tejido a mano, publicado en GitHub Pages</span>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
