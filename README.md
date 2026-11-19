@@ -10,6 +10,8 @@ Publicado en **GitHub Pages**: se actualiza solo cada vez que se sube una foto n
    - `fotos/ramos/` → ramos y flores
    - `fotos/aretes/` → pendientes
    - `fotos/llaveros/` → colgantes de llaves
+   - `fotos/gorros/` → gorros para bebés y mascotas
+   - `fotos/bolsos/` → bolsos tejidos
    - ¿Categoría nueva? → crea `fotos/<nueva>/` y ya aparece en el sitio
 2. Sube el cambio (en GitHub: *Add file → Upload files*).
 

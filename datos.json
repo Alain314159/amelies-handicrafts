@@ -1,16 +1,48 @@
 {
-  "total": 10,
+  "total": 20,
   "contacto": {
     "Instagram": "",
     "WhatsApp": "",
     "Correo": ""
   },
   "destacados": [
-    "aretes-amarillo.jpg",
-    "aretes-variados.jpg",
-    "aretes-rosa.jpg"
+    "my-melody.jpg",
+    "bolsa-naranja.jpg",
+    "gorro-fresa.jpg"
   ],
   "categorias": [
+    {
+      "slug": "amigurumis",
+      "nombre": "Amigurumis",
+      "subtitulo": "Muñecos tejidos en espiral con ojos de seguridad y caritas bordadas a mano. Desde personajes de anime y cracks del fútbol hasta criaturas propias del taller: cada uno llega con su personalidad y listo para adopción.",
+      "dato": "«Amigurumi» viene del japonés: significa «muñeco tejido y relleno».",
+      "nota": "Ideal para: regalos, coleccionistas, decoración y compañía de escritorio.",
+      "orden": 1,
+      "fotos": [
+        {
+          "archivo": "fotos/amigurumis/my-melody.jpg",
+          "titulo": "My Melody",
+          "descripcion": "La conejita de Sanrio en versión ovillo: capucha lila con orejas largas, moño morado, ojitos negros, naricita amarilla y lacito al cuello. Tejida con paciencia para fans de lo tierno.",
+          "orden": 1
+        }
+      ]
+    },
+    {
+      "slug": "ramos",
+      "nombre": "Ramos eternos",
+      "subtitulo": "Flores que no se marchitan jamás: tejidas punto a punto, con tallos, hojas y detalles pensados para durar. El regalo perfecto para aniversarios, cumpleaños o para un simple «porque sí».",
+      "dato": "Un ramo de crochet no necesita agua: solo un lugar con luz y cariño.",
+      "nota": "Ideal para: aniversarios, cumpleaños, San Valentín y detalles que duran para siempre.",
+      "orden": 2,
+      "fotos": [
+        {
+          "archivo": "fotos/ramos/girasol.jpg",
+          "titulo": "Girasol",
+          "descripcion": "Girasol recién terminado sobre la mesa del taller: pétalos naranjas, centro marrón tejido en espiral y asa para colgar, nacido entre ovillos de su mismo color.",
+          "orden": 1
+        }
+      ]
+    },
     {
       "slug": "aretes",
       "nombre": "Aretes",
@@ -78,6 +110,84 @@
           "titulo": "Aretes · rosa pastel",
           "descripcion": "Florecitas en rosa pastel durazno con hilo jaspeado en tonos suaves, sobre una lámina coquette de ositos, helados y cafeterías rosa: dulzura pura prendida en la oreja.",
           "orden": 10
+        },
+        {
+          "archivo": "fotos/aretes/aretes-verde.jpg",
+          "titulo": "Aretes · bosque",
+          "descripcion": "Florecitas en verde bosque profundo sobre su tarjeta kraft, entre hojas de pothos, montañas con río y rebanadas de pastel de matcha: la lámina más fresca y natural del taller.",
+          "orden": 11
+        },
+        {
+          "archivo": "fotos/aretes/aretes-lila.jpg",
+          "titulo": "Aretes · lila",
+          "descripcion": "Pétalos lila claro sobre su tarjeta kraft, en una lámina de lavanda con torta de moras, lentes morados y la frase «good things take time»: paciencia tejida en flor.",
+          "orden": 12
+        }
+      ]
+    },
+    {
+      "slug": "llaveros",
+      "nombre": "Llaveros",
+      "subtitulo": "Pequeños amigurumis y ramilletes convertidos en compañeros de llaves y mochilas: colgantes tejidos con argolla resistente, listos para acompañarte a todas partes.",
+      "dato": "El primer llavero del taller nació de un sobrante de lana: ahora son los más viajeros.",
+      "nota": "Ideal para: llaves, mochilas, bolsos y regalos de última hora con cariño.",
+      "orden": 4,
+      "fotos": [
+        {
+          "archivo": "fotos/llaveros/llavero-ramilletes.jpg",
+          "titulo": "Llaveros · ramilletes",
+          "descripcion": "Tres mini ramos convertidos en llavero: rosas amarillas, moradas y rojas con follaje verde, encaje blanco y argolla metálica. Un jardín completo para las llaves.",
+          "orden": 1
+        },
+        {
+          "archivo": "fotos/llaveros/llavero-haunter.jpg",
+          "titulo": "Llavero Haunter",
+          "descripcion": "El Pokémon fantasma tejido en morado intenso: manitas de garras, ojos de fieltro blanco, sonrisa rosa dentada y argolla plateada con cadena. Susto tierno garantizado.",
+          "orden": 2
+        }
+      ]
+    },
+    {
+      "slug": "gorros",
+      "nombre": "Gorros",
+      "subtitulo": "Sombreros y gorros tejidos a mano: fresas para bebés, mandarinas para gatos y diseños a medida para peludos de casa. Cálidos, tiernos y hechos para fotos inolvidables.",
+      "dato": "Cada gorro se teje a la medida de la cabeza que lo va a lucir: humana o de cuatro patas.",
+      "nota": "Ideal para: bebés, mascotas, disfraces y sesiones de fotos con humor.",
+      "orden": 5,
+      "fotos": [
+        {
+          "archivo": "fotos/gorros/gorro-fresa.jpg",
+          "titulo": "Gorro de fresa",
+          "descripcion": "Gorrito fresa para bebé: rojo intenso con semillas blancas bordadas, hojitas verdes en la corona, ala ondulada y cordones con flecos. Dulzura directa del huerto.",
+          "orden": 1
+        },
+        {
+          "archivo": "fotos/gorros/gorro-gato-mandarina.jpg",
+          "titulo": "Gorro mandarina · gato",
+          "descripcion": "Mandarina tejida en naranja con dos hojitas verdes para la cabeza del gato más paciente de la casa, con corbatín a juego: el disfraz que ya es clásico del taller.",
+          "orden": 2
+        },
+        {
+          "archivo": "fotos/gorros/gorro-perro.jpg",
+          "titulo": "Gorro pescador · perro",
+          "descripcion": "Sombrero de rayas café y rojo con ala ancha, cordones tejidos y huecos para las orejas, lucido por el peludo más elegante del barrio. Estilo con humor, punto a punto.",
+          "orden": 3
+        }
+      ]
+    },
+    {
+      "slug": "bolsos",
+      "nombre": "Bolsos",
+      "subtitulo": "Bolsos tejidos a mano con texturas firmes, asas reforzadas y flores de lana como broche: compañeros de todos los días que aguantan mercado, playa y cariño.",
+      "dato": "Un bolso de crochet bien tejido no pierde la forma: entre más se usa, más se adopta.",
+      "nota": "Ideal para: el día a día, el mercado, la playa y regalos que se usan de verdad.",
+      "orden": 6,
+      "fotos": [
+        {
+          "archivo": "fotos/bolsos/bolsa-naranja.jpg",
+          "titulo": "Bolso naranja",
+          "descripcion": "Bolso tejido en naranja intenso con textura de cesta, asa larga reforzada y una rosa roja de lana como broche: fotografiado de frente y de perfil sobre papel de bocetos.",
+          "orden": 1
         }
       ]
     }

@@ -15,11 +15,14 @@ El **20 de noviembre de 2026** el catálogo fue renovado por completo:
 - Amélie ahora entrega las fotos **ya finalizadas**: son láminas ilustradas
   (collages con la pieza al centro y ambientación a juego con su color).
   **Se suben tal cual, sin recortar nada.**
-- **Primera tanda recibida: ARETES** (10 láminas, ya en línea). El sitio
-  muestra por ahora solo esa sección.
-- **Pendientes de nuevas tandas:** `amigurumis`, `ramos`, `llaveros` (las
-  carpetas y sus textos ya están listos en `contenido.json`; la sección
-  reaparece sola al recibir su primera foto).
+- **Primera tanda recibida: ARETES** (10 láminas).
+- **Tanda 2 (misma fecha):** 10 piezas más y se estrenaron dos categorías
+  nuevas: `gorros` (fresa para bebé, mandarina para gato, pescador para perro)
+  y `bolsos` (bolso naranja con rosa roja). También se sumaron 2 aretes
+  (bosque, lila), el amigurumi My Melody, el girasol del taller y 2 llaveros
+  (ramilletes, Haunter). **Estado actual: 20 piezas en 6 categorías.**
+- Las 6 carpetas ya tienen fotos; las próximas tandas solo AÑADEN archivos a
+  las carpetas existentes (o crean categorías nuevas si llega algo distinto).
 
 ### Protocolo para tandas futuras (importante para la IA)
 
@@ -58,7 +61,9 @@ fotos/            ← 📷 LAS FOTOS, en carpetas por categoría (aquí se añad
   ├─ amigurumis/
   ├─ ramos/
   ├─ aretes/
-  └─ llaveros/
+  ├─ llaveros/
+  ├─ gorros/          (bebé, gatos y perros)
+  └─ bolsos/
 datos.json        ← generado automáticamente por herramientas/generar.py (NO EDITAR)
 herramientas/generar.py   ← regenera datos.json (NO EDITAR)
 .github/workflows/publicar.yml  ← publicación automática (NO EDITAR)
@@ -74,6 +79,8 @@ README.md         ← resumen para humanos
 - Ramo o flor → `fotos/ramos/`
 - Pendiente/arete → `fotos/aretes/`
 - Colgante de llaves → `fotos/llaveros/`
+- Gorro/sombrero (bebé o mascota) → `fotos/gorros/`
+- Bolso/bolsa → `fotos/bolsos/`
 - Categoría nueva → crear carpeta `fotos/<nombre-nuevo>/` (minusculas, sin
   acentos ni espacios; usa guiones: `bolsos`, `patucos`…). El sitio la
   mostrará automáticamente.
