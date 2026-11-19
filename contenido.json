@@ -182,7 +182,7 @@
     },
     "llavero-ajolote.jpg": {
       "titulo": "Ajolote & dragón",
-      "descripcion": "Pareja de colgantes con argolla: el ajolote blanco de ojitos negros con acetos azules y el dragón negro de ojos verdes inspirado en Chimuelo. Luz y sombra, tejidas a mano.",
+      "descripcion": "Pareja de colgantes con argolla: el ajolote blanco de ojitos negros y branquias azules —inspirado en Furia Ligera, la novia de Chimuelo— y el dragón negro de ojos verdes inspirado en Chimuelo. La pareja de «Cómo entrenar a tu dragón», luz y sombra tejidas a mano.",
       "orden": 6
     },
     "llavero-limones.jpg": {
@@ -219,6 +219,106 @@
       "titulo": "Bandiña · menta",
       "descripcion": "Pañuelo triangular en verde menta con punto calado y cordones rizados para anudar a la medida: fresco, ligero y unisex, para primaveras y cabellos con prisa.",
       "orden": 1
+    },
+    "llavero-abeja.jpg": {
+      "titulo": "Llavero abejita",
+      "descripcion": "Abejita redondita tejida en amarillo mostaza con franjas negras, alitas blancas rizadas, ojitos de seguridad, cachetes bordados en rojo y argolla plateada. Zumba ternura dondequiera que la cuelgues.",
+      "orden": 8
+    },
+    "llavero-caballero.jpg": {
+      "titulo": "Llavero Caballero · Hollow Knight",
+      "descripcion": "El Caballero de Hollow Knight tejido a crochet: máscara blanca con cuernos curvos, túnica negra y capa gris a los costados, ojos de fieltro y argolla plateada. Un Vessel en miniatura, listo para vagar entre las llaves.",
+      "orden": 9
+    },
+    "llavero-calcifer.jpg": {
+      "titulo": "Llavero Calcifer",
+      "descripcion": "Calcifer de «El castillo ambulante» en versión colgante: llama en degradado de amarillo a naranja con remates rojos, ojitos de seguridad y su tronquito de leña marrón para sentarse. Un demonio de fuego que promete no quemar el bolsillo.",
+      "orden": 10
+    },
+    "llavero-carro.jpg": {
+      "titulo": "Llavero vochito",
+      "descripcion": "Carrito tipo vocho tejido en amarillo taxi: techo blanco en cúpula, tres llantitas negras con centros grises, parachoques, espejito y ojitos bordados al frente. Con argolla plateada para llevarlo a pasear.",
+      "orden": 11
+    },
+    "llavero-demogorgon.jpg": {
+      "titulo": "Llavero Demogorgon",
+      "descripcion": "El Demogorgon de Stranger Things en versión amigurumi: cabeza floral de cinco pétalos rojos con borde crema, boca negra con dientitos blancos radiales y patitas cortitas. Susto tierno con argolla dorada, directamente del Upside Down.",
+      "orden": 12
+    },
+    "llavero-diente.jpg": {
+      "titulo": "Llavero dientecito",
+      "descripcion": "Muelita tejida en blanco puro: corona ancha, dos raíces redonditas, ojitos negros asimétricos y cachetes bordados en rosa. El regalo favorito de odontólogos y el colgante más limpio de las llaves.",
+      "orden": 13
+    },
+    "llavero-pato.jpg": {
+      "titulo": "Llavero patito de hule",
+      "descripcion": "Patito estilo pato de hule tejido en beige pálido: pico acolchado en rosa durazno, base ondulada en gris azulado como el agua y ojitos de seguridad. Pequeño, flotante y con argolla plateada para no perderlo en la bañera de la vida.",
+      "orden": 14
+    },
+    "llavero-dona.jpg": {
+      "titulo": "Llavero dona",
+      "descripcion": "Dona tejida con glaseado lila, base café y chispitas bordadas en turquesa, amarillo y rosa, con asa tejida arriba para colgarla con las llaves. Cero calorías, cien por ciento cariño.",
+      "orden": 15
+    },
+    "llavero-flor-corazon.jpg": {
+      "titulo": "Llavero flor y corazón",
+      "descripcion": "Doble dije tejido: florecita lila de cinco pétalos con cuenta perlada al centro y corazón morado intenso con «v» blanca bordada, unidos por eslabón plateado. Un mini ramo que no se marchita jamás.",
+      "orden": 16
+    },
+    "llavero-gato.jpg": {
+      "titulo": "Llavero gatito dormilón",
+      "descripcion": "Michi gris dormido: tres rayitas moradas en la cabeza, ojitos cerrados bordados, cachetes rosados, bigotes negros y patitas que cuelgan. La siesta perfecta convertida en llavero.",
+      "orden": 17
+    },
+    "llavero-mora.jpg": {
+      "titulo": "Llavero mora azul",
+      "descripcion": "Morita azul tejida: bolita azul claro con cáliz de festón azul profundo, tallo verde con hojita, ojitos negros y cachetes rosados. Frescura del bosque prendida a las llaves.",
+      "orden": 18
+    },
+    "llavero-pareja-pollitos.jpg": {
+      "titulo": "Llavero pareja de pollitos",
+      "descripcion": "Pareja de pollitos tejidos con argolla: él con moño verde y corbatín negro, ella con moño morado y girasol naranja abrazado. El par de llaveros más romántico del corral.",
+      "orden": 19
+    },
+    "llavero-perro.jpg": {
+      "titulo": "Llavero perrito",
+      "descripcion": "Cabeza de perrito tejida en beige: orejas caídas y redonditas, ojitos negros con brillo, naricita triangular y argolla plateada. Fidelidad en miniatura para las llaves.",
+      "orden": 20
+    },
+    "llavero-pez.jpg": {
+      "titulo": "Llavero pececito",
+      "descripcion": "Pececito tejido en amarillo con aletas y cola azul, franjas azul y blanco, ojitos negros y cachetes naranjas, mostrado de lado, desde arriba y de frente. Pequeño, colorido y listo para nadar entre las llaves.",
+      "orden": 21
+    },
+    "llavero-pinguino.jpg": {
+      "titulo": "Llavero pingüinito",
+      "descripcion": "Pingüinito tejido en blanco y negro con pico y patitas amarillas, ojitos redondos y argolla plateada. El habitante más elegante del congelador de las llaves.",
+      "orden": 22
+    },
+    "llavero-rosa.jpg": {
+      "titulo": "Llavero rosa roja",
+      "descripcion": "Rosa roja tejida con hojas verdes y base circular con cordón para colgar, lucida en el asa de un bolso de lona crema. Romance eterno para llaves y bolsos.",
+      "orden": 23
+    },
+    "llavero-snitch.jpg": {
+      "titulo": "Llavero Snitch dorada",
+      "descripcion": "La Snitch dorada de Harry Potter en crochet: esfera dorada con dos alas tejidas y argolla plateada. Atrápala antes de que vuele — o al menos antes de perder las llaves.",
+      "orden": 24
+    },
+    "llavero-spiderman.jpg": {
+      "titulo": "Llavero Spider-Man",
+      "descripcion": "Telaraña tejida en blanco que cuelga de un hilo de lana y termina en un mini Spider-Man: cabezita roja con trama negra y ojos blancos grandes. El vecino más amigable de las llaves.",
+      "orden": 25
+    },
+    "llavero-tortuga.jpg": {
+      "titulo": "Llavero tortuguita",
+      "descripcion": "Tortuguita tejida con caparazón azul y cabeza, patitas y colita en crema, ojitos negros y argolla plateada. Lenta pero segura, siempre llega con las llaves.",
+      "orden": 26
+    },
+    "kodama.jpg": {
+      "titulo": "Kodama",
+      "descripcion": "El espíritu del bosque de «La princesa Mononoke» tejido a crochet: cuerpecito blanco hueso, ojitos ovalados negros y boquita redonda, bracitos abiertos y cabecita inclinada. Pequeño, silencioso y de buena suerte.",
+      "orden": 5
     }
   }
 }

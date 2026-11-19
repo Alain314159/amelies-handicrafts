@@ -27,6 +27,19 @@ El **20 de noviembre de 2026** el catálogo fue renovado por completo:
   5 llaveros/colgantes (cruasán con campanilla, mini ramo de campánulas,
   Tata de BT21, ajolote con dragón y limones colgantes).
   **Estado actual: 30 piezas en 8 categorías.**
+- **Tanda 4 (misma fecha):** llegó una tanda de 12 imágenes, de las cuales 2
+  resultaron **duplicados** de fotos ya publicadas (una era el bichito verde y
+  otra los limones colgantes) y se descartaron. Se añadieron 10 piezas: 9
+  llaveros (abejita, Caballero de Hollow Knight, Calcifer, vochito,
+  Demogorgon, dientecito, patito de hule —el archivo llegó como «diglet» pero
+  la visión confirmó que es un patito—, dona, flor y corazón) y el amigurumi
+  Kodama de Mononoke. Además se corrigió la descripción del ajolote: el blanco
+  representa a Furia Ligera, la novia de Chimuelo.
+  **Estado actual: 40 piezas en 8 categorías.**
+- **Tanda 5 (misma fecha):** 10 llaveros nuevos más: gatito dormilón, mora
+  azul, pareja de pollitos, perrito, pececito, pingüinito, rosa roja (como
+  colgante de bolso), Snitch dorada, Spider-Man y tortuguita.
+  **Estado actual: 50 piezas en 8 categorías.**
 - Las 6 carpetas ya tienen fotos; las próximas tandas solo AÑADEN archivos a
   las carpetas existentes (o crean categorías nuevas si llega algo distinto).
 
