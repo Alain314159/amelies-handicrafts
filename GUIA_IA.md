@@ -21,6 +21,12 @@ El **20 de noviembre de 2026** el catálogo fue renovado por completo:
   y `bolsos` (bolso naranja con rosa roja). También se sumaron 2 aretes
   (bosque, lila), el amigurumi My Melody, el girasol del taller y 2 llaveros
   (ramilletes, Haunter). **Estado actual: 20 piezas en 6 categorías.**
+- **Tanda 3 (misma fecha):** 10 piezas más y se estrenaron dos categorías
+  nuevas: `patucos` (zapatitos de bebé) y `accesorios` (bandiña verde menta).
+  También se sumaron 3 amigurumis (Chococat, bichito verde, ratoncitos) y
+  5 llaveros/colgantes (cruasán con campanilla, mini ramo de campánulas,
+  Tata de BT21, ajolote con dragón y limones colgantes).
+  **Estado actual: 30 piezas en 8 categorías.**
 - Las 6 carpetas ya tienen fotos; las próximas tandas solo AÑADEN archivos a
   las carpetas existentes (o crean categorías nuevas si llega algo distinto).
 
@@ -63,7 +69,9 @@ fotos/            ← 📷 LAS FOTOS, en carpetas por categoría (aquí se añad
   ├─ aretes/
   ├─ llaveros/
   ├─ gorros/          (bebé, gatos y perros)
-  └─ bolsos/
+  ├─ bolsos/
+  ├─ patucos/         (zapatitos de bebé)
+  └─ accesorios/      (bandiñas, pañuelos, diademas…)
 datos.json        ← generado automáticamente por herramientas/generar.py (NO EDITAR)
 herramientas/generar.py   ← regenera datos.json (NO EDITAR)
 .github/workflows/publicar.yml  ← publicación automática (NO EDITAR)
@@ -81,6 +89,8 @@ README.md         ← resumen para humanos
 - Colgante de llaves → `fotos/llaveros/`
 - Gorro/sombrero (bebé o mascota) → `fotos/gorros/`
 - Bolso/bolsa → `fotos/bolsos/`
+- Zapatito de bebé → `fotos/patucos/`
+- Bandiña, pañuelo o diadema → `fotos/accesorios/`
 - Categoría nueva → crear carpeta `fotos/<nombre-nuevo>/` (minusculas, sin
   acentos ni espacios; usa guiones: `bolsos`, `patucos`…). El sitio la
   mostrará automáticamente.

@@ -5,7 +5,9 @@
     "aretes": 3,
     "llaveros": 4,
     "gorros": 5,
-    "bolsos": 6
+    "bolsos": 6,
+    "patucos": 7,
+    "accesorios": 8
   },
   "categorias": {
     "amigurumis": {
@@ -28,9 +30,9 @@
     },
     "llaveros": {
       "nombre": "Llaveros",
-      "subtitulo": "Pequeños amigurumis y ramilletes convertidos en compañeros de llaves y mochilas: colgantes tejidos con argolla resistente, listos para acompañarte a todas partes.",
+      "subtitulo": "Pequeños amigurumis, ramilletes y colgantes tejidos a mano —con argolla o asa para colgar— listos para convertirse en compañeros de llaves, mochilas y bolsos.",
       "dato": "El primer llavero del taller nació de un sobrante de lana: ahora son los más viajeros.",
-      "nota": "Ideal para: llaves, mochilas, bolsos y regalos de última hora con cariño."
+      "nota": "Ideal para: llaves, mochilas, bolsos, cocinas y regalos de última hora con cariño."
     },
     "gorros": {
       "nombre": "Gorros",
@@ -43,12 +45,24 @@
       "subtitulo": "Bolsos tejidos a mano con texturas firmes, asas reforzadas y flores de lana como broche: compañeros de todos los días que aguantan mercado, playa y cariño.",
       "dato": "Un bolso de crochet bien tejido no pierde la forma: entre más se usa, más se adopta.",
       "nota": "Ideal para: el día a día, el mercado, la playa y regalos que se usan de verdad."
+    },
+    "patucos": {
+      "nombre": "Patucos",
+      "subtitulo": "Zapatitos de bebé tejidos con hilo suave: calientan piececitos, salen regalados en su caja con lazo y se hacen en cualquier color de la lista.",
+      "dato": "El primer par del taller se tejó para un bebé que ya camina: los patucos quedan para el recuerdo.",
+      "nota": "Ideal para: baby showers, nacimientos, souvenirs y fotos de piezecitos."
+    },
+    "accesorios": {
+      "nombre": "Accesorios",
+      "subtitulo": "Pañuelos, bandas y demás prendas tejidas que se anudan y se estrenan: piezas ligeras de punto calado para la cabeza, el pelo y los colores del día.",
+      "dato": "Una bandiña de crochet pesa menos que una carta: se lleva doblada hasta en el bolsillo.",
+      "nota": "Ideal para: primaveras, jugadores de tenis y blockear el sol con estilo."
     }
   },
   "destacados": [
-    "my-melody.jpg",
-    "bolsa-naranja.jpg",
-    "gorro-fresa.jpg"
+    "patucos-crema.jpg",
+    "chococat.jpg",
+    "llavero-tata.jpg"
   ],
   "contacto": {
     "Instagram": "",
@@ -121,6 +135,21 @@
       "descripcion": "La conejita de Sanrio en versión ovillo: capucha lila con orejas largas, moño morado, ojitos negros, naricita amarilla y lacito al cuello. Tejida con paciencia para fans de lo tierno.",
       "orden": 1
     },
+    "chococat.jpg": {
+      "titulo": "Chococat",
+      "descripcion": "El gatito negro de Sanrio tejido punto a punto: orejas rosadas, ojazos blancos, hocico rosa, bigotes negros y su bufanda lila bien abrigada.",
+      "orden": 2
+    },
+    "bichito-verde.jpg": {
+      "titulo": "Bichito verde",
+      "descripcion": "La criatura del taller en persona: oruguita verde manzana con patitas y antenas de limpia pipas, ojitos de seguridad y pompón en la punta de la antena. Explora escritorios y conquista corazones.",
+      "orden": 3
+    },
+    "ratoncitos.jpg": {
+      "titulo": "Ratoncitos",
+      "descripcion": "Familia de ratoncitos grises con orejas y naricita rosa y bufandita verde a juego: el grande de exhibición y el mini con argolla para llaves, tamaño hermanito.",
+      "orden": 4
+    },
     "girasol.jpg": {
       "titulo": "Girasol",
       "descripcion": "Girasol recién terminado sobre la mesa del taller: pétalos naranjas, centro marrón tejido en espiral y asa para colgar, nacido entre ovillos de su mismo color.",
@@ -135,6 +164,31 @@
       "titulo": "Llavero Haunter",
       "descripcion": "El Pokémon fantasma tejido en morado intenso: manitas de garras, ojos de fieltro blanco, sonrisa rosa dentada y argolla plateada con cadena. Susto tierno garantizado.",
       "orden": 2
+    },
+    "llavero-cruasan.jpg": {
+      "titulo": "Cruasán & campanilla",
+      "descripcion": "Dos colgantes en una sola foto: un cruasán beige con franjas blancas y argolla plateada, y una campanilla azul con hojitas verdes y asa tejida para colgar donde más guste.",
+      "orden": 3
+    },
+    "llavero-campanulas.jpg": {
+      "titulo": "Mini ramo de campánulas",
+      "descripcion": "Cuatro campánulas tejidas —dos fucsia y dos lila— con tallos y hojas verdes atadas en moño y argolla para llevarlas colgando: el jardín que no se marchita en el bolsillo.",
+      "orden": 4
+    },
+    "llavero-tata.jpg": {
+      "titulo": "Llavero Tata · BT21",
+      "descripcion": "El corazón rojo de Tata con cuerpecito azul, pañuelo amarillo y cachetes rosados, con su argolla plateada: la pieza de los fans de BT21 y BTS.",
+      "orden": 5
+    },
+    "llavero-ajolote.jpg": {
+      "titulo": "Ajolote & dragón",
+      "descripcion": "Pareja de colgantes con argolla: el ajolote blanco de ojitos negros con acetos azules y el dragón negro de ojos verdes inspirado en Chimuelo. Luz y sombra, tejidas a mano.",
+      "orden": 6
+    },
+    "llavero-limones.jpg": {
+      "titulo": "Colgante · limones",
+      "descripcion": "Dos limones tejidos en amarillo sol con tallos y hojas verdes atados en cordón: fresquito para la cocina, las llaves o el bolso, y siempre en temporada.",
+      "orden": 7
     },
     "gorro-fresa.jpg": {
       "titulo": "Gorro de fresa",
@@ -154,6 +208,16 @@
     "bolsa-naranja.jpg": {
       "titulo": "Bolso naranja",
       "descripcion": "Bolso tejido en naranja intenso con textura de cesta, asa larga reforzada y una rosa roja de lana como broche: fotografiado de frente y de perfil sobre papel de bocetos.",
+      "orden": 1
+    },
+    "patucos-crema.jpg": {
+      "titulo": "Patucos · crema",
+      "descripcion": "Zapatitos de bebé en crema con borde ondulado y cintas de satén rosa cruzadas en lacito, presentados en su caja de regalo con papel de seda: listos para el piececito más tierno de la lista.",
+      "orden": 1
+    },
+    "banda-menta.jpg": {
+      "titulo": "Bandiña · menta",
+      "descripcion": "Pañuelo triangular en verde menta con punto calado y cordones rizados para anudar a la medida: fresco, ligero y unisex, para primaveras y cabellos con prisa.",
       "orden": 1
     }
   }
