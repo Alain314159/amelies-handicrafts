@@ -6,6 +6,34 @@
 
 ---
 
+## 0. Bitácora de renovación · 2026-11-20
+
+El **20 de noviembre de 2026** el catálogo fue renovado por completo:
+
+- Se **eliminaron las 37 fotos antiguas** (recortes que quedaron mal) de todas
+  las categorías.
+- Amélie ahora entrega las fotos **ya finalizadas**: son láminas ilustradas
+  (collages con la pieza al centro y ambientación a juego con su color).
+  **Se suben tal cual, sin recortar nada.**
+- **Primera tanda recibida: ARETES** (10 láminas, ya en línea). El sitio
+  muestra por ahora solo esa sección.
+- **Pendientes de nuevas tandas:** `amigurumis`, `ramos`, `llaveros` (las
+  carpetas y sus textos ya están listos en `contenido.json`; la sección
+  reaparece sola al recibir su primera foto).
+
+### Protocolo para tandas futuras (importante para la IA)
+
+1. Amélie manda las imágenes con un **nombre descriptivo que es solo una
+   guía** — puede tener errores o faltas de ortografía (p. ej. mandó
+   «aretes azui» y la imagen era azul). **Antes de publicar, verificar cada
+   imagen con análisis de visión** para confirmar qué producto es y su color
+   exacto.
+2. Renombrar a un slug limpio y corregido: minúsculas, guiones, sin
+   acentos (`aretes-azul.jpg`, no «aretes azui.jpg»).
+3. Copiar a `fotos/<categoría>/`, escribir su entrada en `contenido.json`
+   (título + descripción basada en lo verificado) y subir el cambio.
+4. Publicar y verificar. Nada de recortes: la lámina se sube íntegra.
+
 ## 1. Qué es este sitio
 
 - **Marca:** Amélie's Handicrafts 🧶 — taller de crochet hecho a mano.
